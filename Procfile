@@ -1,3 +1,3 @@
 # Procfile
 
- web: ruby app.rb
+ web: ruby build-and-run.rb
