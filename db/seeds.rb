@@ -56,7 +56,7 @@ cat3 = Cat.new({
    'name' => 'Fig',
    'type' => 'white',
    'adopted' => 'For Adoption',
-   'picture' => '/images/fig.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Fig.jpg',
    'owner' => owner5.id
   })
 cat3.save()
@@ -66,7 +66,7 @@ cat4 = Cat.new({
    'name' => 'Muffin',
    'type' => 'white/black',
    'adopted' => 'For Adoption',
-   'picture' => '/images/muffin.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Muffin.jpg',
    'owner' => owner5.id
   })
 cat4.save()
@@ -76,7 +76,7 @@ cat5 = Cat.new({
    'name' => 'Lady Sissi',
    'type' => 'white/black',
    'adopted' => 'Adopted',
-   'picture' => '/images/lady_sissi.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Lady_Sissi.jpg',
    'owner' => owner1.id
   })
 cat5.save()
