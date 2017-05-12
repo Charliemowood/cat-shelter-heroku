@@ -36,7 +36,7 @@ cat1 = Cat.new({
    'name' => 'Camomile',
    'type' => 'tabby',
    'adopted' => 'Adopted',
-   'picture' => '/images/camomile.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Camomile.jpg',
    'owner' => owner2.id
   })
 cat1.save()
@@ -46,7 +46,7 @@ cat2 = Cat.new({
    'name' => 'Cookie',
    'type' => 'mottled',
    'adopted' => 'For Adoption',
-   'picture' => '/images/cookie.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Cookie.jpg',
    'owner' => owner5.id
   })
 cat2.save()
