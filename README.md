@@ -1,4 +1,4 @@
-The aim of this project was to explore the following technlogies:
+The aim of this project was to explore the following technologies:
 
 - Ruby fundamentals
 - OOP
@@ -17,5 +17,7 @@ This project seek to provide services for the administration of a Cat Shelter.
  - List all the owners and their adopted animals
  - CRUD actions for animals/owners
  - Made responsive with flexbox
+ 
+ For a version of the code to run locally on system go to: https://github.com/Charliemowood/portfolio-1-animal-shelter-app
 
 
