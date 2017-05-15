@@ -36,7 +36,7 @@ cat1 = Cat.new({
    'name' => 'Camomile',
    'type' => 'tabby',
    'adopted' => 'Adopted',
-   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Camomile.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/camomile.jpg',
    'owner' => owner2.id
   })
 cat1.save()
@@ -44,9 +44,9 @@ cat1.save()
 cat2 = Cat.new({
   'arrival_date' => '2017-05-10',
    'name' => 'Cookie',
-   'type' => 'mottled',
+   'type' => 'grey',
    'adopted' => 'For Adoption',
-   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Cookie.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/cookie.jpg',
    'owner' => owner5.id
   })
 cat2.save()
@@ -54,9 +54,9 @@ cat2.save()
 cat3 = Cat.new({
   'arrival_date' => '2017-05-20',
    'name' => 'Fig',
-   'type' => 'white',
+   'type' => 'mottled',
    'adopted' => 'For Adoption',
-   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Fig.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/fig.jpg',
    'owner' => owner5.id
   })
 cat3.save()
@@ -64,9 +64,9 @@ cat3.save()
 cat4 = Cat.new({
   'arrival_date' => '2017-04-20',
    'name' => 'Muffin',
-   'type' => 'white/black',
+   'type' => 'ginger',
    'adopted' => 'For Adoption',
-   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Muffin.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/muffin.jpg',
    'owner' => owner5.id
   })
 cat4.save()
@@ -76,7 +76,7 @@ cat5 = Cat.new({
    'name' => 'Lady Sissi',
    'type' => 'white/black',
    'adopted' => 'Adopted',
-   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/Lady_Sissi.jpg',
+   'picture' => 'https://s3-us-west-2.amazonaws.com/little-den-pictures/lady_sissi.jpg',
    'owner' => owner1.id
   })
 cat5.save()

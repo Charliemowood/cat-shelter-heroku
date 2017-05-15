@@ -9,7 +9,7 @@
 
 <h4>Selected Cat:</h4>
   <p>Name: <%= @cat.name %></p>
-  <img class="imageblock" src="<%= @cat.picture %>" alt="picture of cats" height="200px" width="200px">
+  <img class="imageblock" src="<%= @cat.picture %>" alt="picture of cats" height="400px" width="400px">
     <% if @cat.adopted == 'adopted' %>
       <p class="red rye_font">Status: Adopted</p>
     <% elsif @cat.adopted == 'for adoption' %>
